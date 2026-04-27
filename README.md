@@ -1,4 +1,4 @@
-# MRAS Sliding Mode Controller — LLC Resonant DC-DC Converter
+# MRAS Sliding Mode Controller for LLC Resonant DC-DC Converter
 
 Embedded C implementation of a **Model Reference Adaptive System (MRAS) Sliding Mode** controller for an LLC resonant DC-DC converter. Auto-generated from MATLAB/Simulink R2025b using Embedded Coder.
 
