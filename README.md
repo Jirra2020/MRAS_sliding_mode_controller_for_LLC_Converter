@@ -10,7 +10,6 @@ Embedded C implementation of a **Model Reference Adaptive System (MRAS) Sliding 
 |------|--------|
 | Board | STM32 Nucleo-F446RE |
 | MCU | STM32F446RE — ARM Cortex-M4 @ 180 MHz |
-| FPU | Yes — hardware double precision |
 | IDE | STM32CubeIDE |
 | Sample time | 1 µs (1 MHz control loop via TIM2 interrupt) |
 
@@ -121,7 +120,7 @@ Vo=4001.1 V  io=1.251 A  u=0.0298
 | Item | Detail |
 |------|--------|
 | Tool | MATLAB Simulink Embedded Coder 25.2 (R2025b) |
-| Target file | `ert.tlc` — Embedded Real-Time |
+| Target file | `ert.tlc` Embedded Real-Time |
 | Language | C |
 | Solver | Fixed-step, ode4 |
 | Sample time | 1×10⁻⁶ s |
@@ -131,4 +130,4 @@ Vo=4001.1 V  io=1.251 A  u=0.0298
 
 ## License
 
-MSc Thesis Project — Academic use only.
+This implementation is for the paper: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4R_Z0TEAAAAJ&citation_for_view=4R_Z0TEAAAAJ:IjCSPb-OGe4C
